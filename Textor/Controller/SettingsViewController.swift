@@ -203,6 +203,7 @@ class SettingsViewController: UITableViewController {
 
 	}
 
+	// TODO: Add MFMessageComposeViewController
 	func configuredMailComposeViewController() -> MFMailComposeViewController {
 		let mailComposerVC = MFMailComposeViewController()
 		mailComposerVC.mailComposeDelegate = self
